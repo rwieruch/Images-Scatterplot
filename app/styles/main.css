@@ -91,17 +91,51 @@ body {
 
 .axis path,
 .axis line {
-  fill: none;
-  stroke: #000;
+  stroke-width: 10px;
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
-  display: none;
+.dot {
+  stroke-width: 5px;
 }
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
+.label-mid {
+  font-size: 130%;
+  fill: #767676;
+  font-weight: bold;
+}
+
+.label-small {
+  font-size: 115%;
+  fill: #AEAEAE;
+  font-weight: bold;
+}
+
+.tip {
+  border-radius: 10px;
+  border: solid 2px;
+  border-color: #4F7596;
+  background: #fff;
+  position: absolute;  
+  text-align: center;
+  width:140px;
+  min-height: 25px;
+  color: #000;
+  line-height: 25px;
+  pointer-events: none;
+  margin-left: -70px;
+  margin-top: -70px;
+}
+
+.tip:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #4F7596;
+  border-color: inherit;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
 }
