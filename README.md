@@ -1,16 +1,16 @@
-Small-Multiples-On-Angular-Seed
+Images-Scatterplot
 ==================
 
-This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations. It provides the ability to visualize Small Multiples as Line Graphs. It was scaffolded by yeoman. More on http://www.robinwieruch.de/
+This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations. It provides the ability to visualize a scatterplot with images. It was scaffolded by yeoman. More on http://www.robinwieruch.de/
 
 Getting Started
 ==================
 
-Clone the small-multiples-on-angular-seed repository using git:
+Clone the image-scatterplot repository using git:
 
 ```
-git clone https://github.com/wrobin/Small-Multiples-On-Angular.git
-cd Small-Multiples-On-Angular
+git clone https://github.com/wrobin/Images-Scatterplot.git
+cd Images-Scatterplot
 ```
 
 Run:
@@ -21,7 +21,7 @@ bower install
 grunt serve
 ```
 
-Sample Line Chart
+Images Scatterplot
 ==================
 
-The project includes an example directive for a simple line chart (simplelinechart.js). In the main.html template you will find a `<div simple-line-chart></div>` element to create the line chart. Furthermore you have a ng-repeat directive to visualize Small Multiples.
+The project includes an example directive for a simple line chart image scatterplot. In the main.html template you will find a `<div scatterplot></div>` element to create the visualization.
