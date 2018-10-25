@@ -1,6 +1,8 @@
 Images-Scatterplot
 ==================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/Images-Scatterplot.svg)](https://greenkeeper.io/)
+
 This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations. It provides the ability to visualize a scatterplot with images. It was scaffolded by yeoman. More on http://www.robinwieruch.de/
 
 Getting Started
